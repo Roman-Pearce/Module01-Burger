@@ -15,7 +15,12 @@ body {
 
 }
 
-
+.header-item {
+  display: flex;
+  align-items: center;
+  flex-basis: 68.5%;
+  justify-content: space-between;
+}
 
 .container {
 
@@ -222,9 +227,21 @@ body {
   text-transform: uppercase;
   color: #1E2F40;
   border-radius: 5px;
-  padding: 20px 27px;
+  padding: 18px 25px;
+  border: 1px solid #FBB731;
+}
+
+.banner-link:hover {
+  background-color: transparent;
+  color: #FBB731;
 
 }
+
+.menu-grid-text:hover {
+  color: #FFF;
+  cursor: pointer;
+}
+
 
 .banner-title span {
   color: #FFFFFF;
@@ -424,7 +441,7 @@ body {
 }
 
 
-.footer-item li {
+.footer-list li {
   margin-bottom: 9px;
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
@@ -433,7 +450,7 @@ body {
   line-height: 24px;
 }
 
-.footer-item a {
+.footer-list a {
   color: #DEDEDE;
   text-decoration: none;
   font-weight: 400;
@@ -448,16 +465,23 @@ body {
 
 }
 
-.footer-tel ul {
+
+.footer-list-tel {
+  margin-top: 0;
+}
+
+
+.footer-list-tel li {
+  margin-bottom: 12px;
+}
+
+
+.footer-list-tel a {
   font-size: 20px;
   color: #FBB731;
-  margin-top: 0;
   font-weight: 900;
 }
 
-.footer-tel li {
-  margin-bottom: 12px;
-}
 
 
 .footer-list {
