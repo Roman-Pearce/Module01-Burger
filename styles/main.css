@@ -37,7 +37,7 @@ body {
 .header-logo {
 
   display: block;
-  background-image: url(../image/logo.svg);
+  background-image: url(../images//logo.svg);
   width: 176px;
   height: 56px;
   background-repeat: no-repeat;
@@ -80,7 +80,7 @@ body {
   border-radius: 1.5px;
   color: #FFC725;
   display: block;
-  background-image: url(/image/active.svg);
+  background-image: url(/images//active.svg);
   background: transparent;
 }
 
@@ -139,7 +139,7 @@ body {
 
   text-align: center;
   color: #ffffff;
-  background-image: url(../image/bg.jpg);
+  background-image: url(../images//bg.jpg);
   background-size: cover;
   padding: 142px 0;
   background-position: center center;
@@ -191,10 +191,10 @@ body {
 
 .title {
 
+  font-weight: 700px;
   font-size: 79px;
-  font-size: 79px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 17px;
+  margin-bottom: 20px;
 }
 
 
@@ -210,7 +210,7 @@ body {
 
 
 .banner-box {
-  background-image: url(../image/menu-banner.jpg);
+  background-image: url(../images/menu-banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 100px 100px 120px;
@@ -310,7 +310,7 @@ body {
   appearance: none;
   font-weight: 400;
   flex-basis: 279px;
-  background-image: url(../image/arrow.svg);
+  background-image: url(../images/arrow.svg);
   background-size: 12.79px 7.75px;
   background-repeat: no-repeat;
   background-position: 89% center;
@@ -397,7 +397,7 @@ body {
 
 
 .menu-grid-icon {
-  background-image: url(../image/cart-menu\ .svg);
+  background-image: url(../images/cart-menu\ .svg);
   background-size: 18px 18px;
   background-repeat: no-repeat;
   display: block;
@@ -489,4 +489,159 @@ body {
   list-style-type: none;
 
 
+}
+
+/* styles INDEX   */
+
+
+
+.main {
+  background: linear-gradient(180deg, #0C4C7B -100%, #1E2F40 100%);
+}
+
+.wrapper {
+
+  max-width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  color: #FAF9F9;
+  flex: 0 0 580px;
+  padding-top: 170px;
+  padding-bottom: 170px;
+}
+
+.content-title {
+  font-size: 120px;
+  font-weight: 800px;
+  text-transform: uppercase;
+  line-height: 140px;
+  margin-bottom: 40;
+  margin-bottom: 0;
+}
+
+.content-title span {
+  color: #FBB731;
+  font-size: 30px;
+  font-weight: 700px;
+  line-height: 38px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.content-text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 19px;
+  line-height: 1.4;
+  margin-bottom: 42px;
+
+}
+
+.content-link,
+.promo a {
+
+  color: #1E2F40;
+  background-color: #FBB731;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 20px 45px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700px
+}
+
+.visual {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.visual-bg {
+  width: 432px;
+  height: 100%;
+  background: linear-gradient(2.42deg, #F37335 -19.6%, #FBB731 100.79%, #FDC830 100.79%);
+}
+
+
+
+.main img {
+  width: 829px;
+  position: absolute;
+  right: -170px;
+}
+
+.promo {
+  padding-top: 186px;
+  padding-bottom: 46px;
+}
+
+
+.promo-left,
+.promo-raght {
+  flex: 0 0 49%;
+  color: #FFF;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.promo-left {
+  background-image: url(../images/promo-left.png);
+  padding: 116px 50px;
+}
+
+.promo-raght {
+  background-image: url(../images/promo-raght.png);
+  padding: 102px 50px;
+}
+
+.sale {
+  font-size: 14px;
+  font-weight: 900;
+  background: #F37335;
+  padding: 5px 19px;
+  border-radius: 14px;
+  display: inline-block;
+  text-transform: uppercase;
+  margin-bottom: 3px;
+  margin-top: 0;
+}
+
+.cost {
+  font-size: 60px;
+  font-weight: 900;
+  margin-bottom: 8px;
+  margin-top: 0;
+}
+
+
+
+.promo-description {
+  font-family: 'Open Sans', sans-serif;
+  color: #FAF9F9;
+  font-size: 15px;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+
+.promo-left .promo-description {
+  max-width: 392px;
+}
+
+.promo-raght .promo-description {
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+.free {
+  font-size: 44px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 0;
 }
