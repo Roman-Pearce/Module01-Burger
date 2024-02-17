@@ -230,7 +230,7 @@ body {
   padding: 18px 25px;
   border: 1px solid #FBB731;
   transition: 0.3s;
- 
+
 }
 
 .banner-link:hover {
@@ -597,6 +597,19 @@ body {
   font-size: 14px;
   font-weight: 700px
 }
+
+.content-link {
+
+  border: 1px solid #FBB731;
+  transition: 0.3s;
+}
+
+.content-link:hover {
+  background-color: transparent;
+  color: #FBB731;
+}
+
+
 
 .visual {
   flex-grow: 1;
