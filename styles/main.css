@@ -215,7 +215,7 @@ body {
   background-size: cover;
   padding: 100px 100px 120px;
   background-position: center center;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
 .banner-link {
@@ -229,6 +229,8 @@ body {
   border-radius: 5px;
   padding: 18px 25px;
   border: 1px solid #FBB731;
+  transition: 0.3s;
+ 
 }
 
 .banner-link:hover {
@@ -290,6 +292,12 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+
+.menu {
+
+  padding-top: 20px;
+}
+
 
 .menu-title {
   color: #1B2A49;
@@ -490,6 +498,42 @@ body {
 
 
 }
+
+.button-up {
+
+  background-color: #FBB731;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #1E2F40;
+  text-decoration: none;
+  padding: 5px 20px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 15px;
+  transition: 1s;
+
+}
+
+.button-up.hidden {
+  opacity: 0;
+}
+
+.button-up.visible {
+
+  opacity: 1;
+}
+
+.button-up:hover {
+
+  background-color: #F37335;
+
+}
+
+
+
+
 
 /* styles INDEX   */
 
