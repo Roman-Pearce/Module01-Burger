@@ -15,9 +15,12 @@
 </head>
 
 <body>
-  <header id="#headerTop">
+  <header id="headerTop">
     <div class="container">
       <div class="header">
+        <div class="header-burger">
+          <button class="burger" onclick="openModal()"></button>
+        </div>
         <div class="header-item">
           <a href="index.html" class="header-logo"></a>
           <nav>
@@ -152,6 +155,12 @@
             </button>
           </div>
         </div>
+      </div>
+
+    </section>
+    <section class="menu  menu-other ">
+      <div class="container">
+
         <div class="menu-header">
           <h2 class="menu-title">
             Дополнительно
@@ -196,6 +205,7 @@
             </button>
           </div>
         </div>
+
     </section>
   </main>
   <footer class="footer">
@@ -207,10 +217,20 @@
         <div class="footer-item">
           <h2>основные ссылки</h2>
           <ul class="footer-list">
-            <li><a href="menu.html"></a> Меню</li>
+            <li><a href="menu.html"></a>Меню</li>
             <li><a href="#"></a> Заказ и Доставка</li>
             <li><a href="#"></a> Методы оплаты</li>
-            <li> <a href="#"></a> Контакты</li>
+            <li><a href="#"></a> Контакты</li>
+          </ul>
+          <ul class="footer-list footer-list-tel ">
+
+            <li>
+              <a href="tel:+79007871313"> + 7 900 787 13-13</a>
+            </li>
+
+            <li>
+              <a href="tel:+79007001414">+ 7 900 700 14-14</a>
+            </li>
           </ul>
         </div>
 
@@ -245,6 +265,15 @@
     </div>
   </footer>
   <a href="#headerTop" class="button-up hidden" id="btnUp">Наверх</a>
+  <div class="modal" id="modal">
+    <ul class="header-nav">
+      <li><a href="index.html">Главная</a></li>
+      <li><a href="#" class="active">Меню</a></li>
+      <li><a href="#">О нас</a></li>
+      <li><a href="#">Контакты</a></li>
+    </ul>
+    <button class="burger-close" onclick="closeModal()"></button>
+  </div>
   <script>
 
     // Smooth Scroll
@@ -289,6 +318,19 @@
         document.getElementById('btnUp').className = 'button-up hidden';
       }
     }
+
+
+    // Menu
+
+    function openModal() {
+      document.getElementById("modal").style.top = "0px";
+    }
+
+    function closeModal() {
+      document.getElementById("modal").style.top = "-400px";
+    }
+
+
 
 
 
